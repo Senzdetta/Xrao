@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package connect
 
 import (
     "fmt"
-    "github.com/Zeronetsec/Xrao/utils/color"
-    "github.com/Zeronetsec/Xrao/utils/shell"
+    "github.com/Senzdetta/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/shell"
 )
 
 func Runner(target string) {
@@ -19,4 +19,4 @@ func Runner(target string) {
     _ = shell.ExecLivef("adb connect %s", target)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

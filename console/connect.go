@@ -1,10 +1,10 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
-    "github.com/Zeronetsec/Xrao/module/connect"
-    "github.com/Zeronetsec/Xrao/utils/invinput"
+    "github.com/Senzdetta/Xrao/module/connect"
+    "github.com/Senzdetta/Xrao/utils/invinput"
 )
 
 type Connect struct{}
@@ -17,4 +17,4 @@ func (c Connect) Execute(args []string) {
     connect.Runner(args[2])
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

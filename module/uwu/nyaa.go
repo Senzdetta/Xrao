@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package uwu
 
@@ -38,4 +38,4 @@ func Nyaa(duration time.Duration) {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

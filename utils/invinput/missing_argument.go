@@ -1,10 +1,10 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package invinput
 
 import (
     "fmt"
-    "github.com/Zeronetsec/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/color"
 )
 
 func MissingArgument() {
@@ -19,4 +19,4 @@ func MissingArgument() {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

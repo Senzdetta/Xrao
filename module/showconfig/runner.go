@@ -1,13 +1,13 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package showconfig
 
 import (
     "fmt"
     "os"
-    "github.com/Zeronetsec/Xrao/utils/color"
-    "github.com/Zeronetsec/Xrao/utils/shell"
-    "github.com/Zeronetsec/Xrao/utils/variable"
+    "github.com/Senzdetta/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/shell"
+    "github.com/Senzdetta/Xrao/utils/variable"
 )
 
 func Runner(configPath string) {
@@ -36,4 +36,4 @@ func Runner(configPath string) {
     fmt.Println()
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

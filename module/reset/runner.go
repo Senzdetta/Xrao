@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package reset
 
@@ -6,11 +6,11 @@ import (
     "fmt"
     "os"
     "path/filepath"
-    "github.com/Zeronetsec/Xrao/module/generate"
-    "github.com/Zeronetsec/Xrao/utils/color"
-    "github.com/Zeronetsec/Xrao/utils/shell"
-    "github.com/Zeronetsec/Xrao/utils/variable"
-    "github.com/Zeronetsec/Xrao/utils/move"
+    "github.com/Senzdetta/Xrao/module/generate"
+    "github.com/Senzdetta/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/shell"
+    "github.com/Senzdetta/Xrao/utils/variable"
+    "github.com/Senzdetta/Xrao/utils/move"
 )
 
 func Runner(configPath string) {
@@ -175,4 +175,4 @@ func Runner(configPath string) {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

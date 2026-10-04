@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
-    "github.com/Zeronetsec/Xrao/module/apply"
+    "github.com/Senzdetta/Xrao/module/apply"
 )
 
 type Apply struct{}
@@ -16,4 +16,4 @@ func (c Apply) Execute(args []string) {
     apply.Runner(configPath)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

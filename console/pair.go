@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
     "os"
-    "github.com/Zeronetsec/Xrao/module/pair"
-    "github.com/Zeronetsec/Xrao/utils/invinput"
+    "github.com/Senzdetta/Xrao/module/pair"
+    "github.com/Senzdetta/Xrao/utils/invinput"
 )
 
 type Pair struct{}
@@ -18,4 +18,4 @@ func (c Pair) Execute(args []string) {
     pair.Runner(args[2])
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

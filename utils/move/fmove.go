@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package move
 
@@ -27,4 +27,4 @@ func Fmove(src, dst string) error {
     return os.Remove(src)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

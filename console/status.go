@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
-    "github.com/Zeronetsec/Xrao/module/status"
+    "github.com/Senzdetta/Xrao/module/status"
 )
 
 type Status struct{}
@@ -16,4 +16,4 @@ func (c Status) Execute(args []string) {
     status.Show(configPath)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

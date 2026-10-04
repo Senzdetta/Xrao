@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package parser
 
@@ -6,7 +6,7 @@ import (
     "fmt"
     "os"
     "strings"
-    "github.com/Zeronetsec/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/color"
 )
 
 func ParseReset(inputPath, outputPath string) {
@@ -410,4 +410,4 @@ func ParseReset(inputPath, outputPath string) {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

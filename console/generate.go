@@ -1,12 +1,12 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
     "fmt"
     "os"
-    "github.com/Zeronetsec/Xrao/module/generate"
-    "github.com/Zeronetsec/Xrao/utils/invinput"
+    "github.com/Senzdetta/Xrao/module/generate"
+    "github.com/Senzdetta/Xrao/utils/invinput"
 )
 
 type Generate struct{}
@@ -52,4 +52,4 @@ func (c Generate) Execute(args []string) {
     generate.Runner(configPath, outputPath, runMode)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

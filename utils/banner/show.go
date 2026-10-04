@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package banner
 
 import (
     "embed"
     "fmt"
-    "github.com/Zeronetsec/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/color"
 )
 
 //go:embed ascii/*.txt
@@ -27,4 +27,4 @@ func Show() {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

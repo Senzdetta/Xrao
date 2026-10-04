@@ -1,10 +1,10 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
     "os"
-    "github.com/Zeronetsec/Xrao/utils/invinput"
+    "github.com/Senzdetta/Xrao/utils/invinput"
 )
 
 func XraoConsole(input string) {
@@ -37,4 +37,4 @@ func XraoConsole(input string) {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

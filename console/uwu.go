@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
     "time"
     "fmt"
-    "github.com/Zeronetsec/Xrao/module/uwu"
+    "github.com/Senzdetta/Xrao/module/uwu"
 )
 
 type Uwu struct{}
@@ -17,4 +17,4 @@ func (c Uwu) Execute(args []string) {
     fmt.Println()
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

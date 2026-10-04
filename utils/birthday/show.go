@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package birthday
 
 import (
     "fmt"
     "time"
-    "github.com/Zeronetsec/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/color"
 )
 
 func Show() {
@@ -20,4 +20,4 @@ func Show() {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

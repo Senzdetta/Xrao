@@ -1,14 +1,14 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package status
 
 import (
     "fmt"
     "os"
-    "github.com/Zeronetsec/Xrao/execparser"
-    "github.com/Zeronetsec/Xrao/utils/color"
-    "github.com/Zeronetsec/Xrao/utils/shell"
-    "github.com/Zeronetsec/Xrao/utils/variable"
+    "github.com/Senzdetta/Xrao/execparser"
+    "github.com/Senzdetta/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/shell"
+    "github.com/Senzdetta/Xrao/utils/variable"
 )
 
 func Show(conf string) {
@@ -36,4 +36,4 @@ func Show(conf string) {
     execparser.CheckStatus(conf)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

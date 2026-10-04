@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
-    "github.com/Zeronetsec/Xrao/module/showconfig"
+    "github.com/Senzdetta/Xrao/module/showconfig"
 )
 
 type ShowConfig struct{}
@@ -16,4 +16,4 @@ func (c ShowConfig) Execute(args []string) {
     showconfig.Runner(configPath)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

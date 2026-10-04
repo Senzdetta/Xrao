@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package variable
 
@@ -31,4 +31,4 @@ func init() {
     Config = filepath.Join(Home, ".xrao", "config.xr")
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package help
 
@@ -7,9 +7,9 @@ import (
     "fmt"
     "encoding/json"
     "io/fs"
-    "github.com/Zeronetsec/Xrao/utils/color"
-    "github.com/Zeronetsec/Xrao/utils/birthday"
-    "github.com/Zeronetsec/Xrao/utils/banner"
+    "github.com/Senzdetta/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/birthday"
+    "github.com/Senzdetta/Xrao/utils/banner"
 )
 
 //go:embed metadata/*
@@ -68,4 +68,4 @@ func ShowHelper() {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

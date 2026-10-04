@@ -1,17 +1,17 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package version
 
 import (
     "fmt"
-    "github.com/Zeronetsec/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/color"
 )
 
 const (
     name = "Xrao"
     version = "v0.1.04102026"
-    creator = "Zeronetsec"
-    homepage = "https://github.com/Zeronetsec/Xrao"
+    creator = "Senzdetta"
+    homepage = "https://github.com/Senzdetta/Xrao"
 )
 
 func ShowVersion() {
@@ -36,4 +36,4 @@ func ShowVersion() {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

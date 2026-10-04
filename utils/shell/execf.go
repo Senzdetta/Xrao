@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package shell
 
@@ -45,4 +45,4 @@ func Execf(format string, a ...interface{}) (string, error) {
     return stdout.String(), nil
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

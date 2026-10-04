@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package generate
 
 import (
     "os"
     "fmt"
-    "github.com/Zeronetsec/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/color"
 )
 
 func initScript(outputPath string) error {
@@ -18,4 +18,4 @@ func initScript(outputPath string) error {
     return os.WriteFile(outputPath, header, 0644)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

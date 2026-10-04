@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package execparser
 
@@ -7,8 +7,8 @@ import (
     "fmt"
     "os"
     "strings"
-    "github.com/Zeronetsec/Xrao/utils/color"
-    "github.com/Zeronetsec/Xrao/utils/variable"
+    "github.com/Senzdetta/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/variable"
 )
 
 func CheckStatus(inputPath string) {
@@ -297,4 +297,4 @@ func CheckStatus(inputPath string) {
     }
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

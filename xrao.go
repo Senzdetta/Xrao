@@ -1,11 +1,11 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package main
 
 import (
     "os"
     "strings"
-    "github.com/Zeronetsec/Xrao/console"
+    "github.com/Senzdetta/Xrao/console"
 )
 
 func main() {
@@ -14,4 +14,4 @@ func main() {
     console.XraoConsole(input)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

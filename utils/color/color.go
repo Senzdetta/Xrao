@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package color
 
@@ -13,4 +13,4 @@ const (
     WW = "\x1b[0;37m"
 )
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

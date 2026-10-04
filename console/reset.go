@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
-    "github.com/Zeronetsec/Xrao/module/reset"
+    "github.com/Senzdetta/Xrao/module/reset"
 )
 
 type Reset struct{}
@@ -16,4 +16,4 @@ func (c Reset) Execute(args []string) {
     reset.Runner(configPath)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package execparser
 
 import (
-    "github.com/Zeronetsec/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/color"
 )
 
 func mapBoolColor(status bool) string {
@@ -13,4 +13,4 @@ func mapBoolColor(status bool) string {
     return color.R + "false"
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

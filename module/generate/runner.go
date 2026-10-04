@@ -1,14 +1,14 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package generate
 
 import (
     "fmt"
     "os"
-    "github.com/Zeronetsec/Xrao/parser"
-    "github.com/Zeronetsec/Xrao/utils/color"
-    "github.com/Zeronetsec/Xrao/utils/variable"
-    "github.com/Zeronetsec/Xrao/utils/invinput"
+    "github.com/Senzdetta/Xrao/parser"
+    "github.com/Senzdetta/Xrao/utils/color"
+    "github.com/Senzdetta/Xrao/utils/variable"
+    "github.com/Senzdetta/Xrao/utils/invinput"
 )
 
 func Runner(config, out, mode string) {
@@ -92,4 +92,4 @@ func Runner(config, out, mode string) {
     )
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

@@ -7,7 +7,7 @@
 
 ### Usage
 ```bash
-git clone https://github.com/Zeronetsec/Xrao
+git clone https://github.com/Senzdetta/Xrao
 bash Xrao/install.sh <option>
 ```
 

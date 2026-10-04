@@ -1,9 +1,9 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package console
 
 import (
-    "github.com/Zeronetsec/Xrao/module/agonly"
+    "github.com/Senzdetta/Xrao/module/agonly"
 )
 
 type ApplyGlobalOnly struct{}
@@ -16,4 +16,4 @@ func (c ApplyGlobalOnly) Execute(args []string) {
     agonly.Runner(configPath)
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta

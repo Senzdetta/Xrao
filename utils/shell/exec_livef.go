@@ -1,4 +1,4 @@
-// https://github.com/Zeronetsec/Xrao
+// https://github.com/Senzdetta/Xrao
 
 package shell
 
@@ -31,4 +31,4 @@ func ExecLivef(format string, a ...interface{}) error {
     return cmd.Run()
 }
 
-// Copyright (c) 2026 Zeronetsec
+// Copyright (c) 2026 Senzdetta
