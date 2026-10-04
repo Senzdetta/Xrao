@@ -1,5 +1,3 @@
-<!-- https://github.com/Zeronetsec/Xrao -->
-
 # Installation
 `install.sh` optional options (can be used together):
 - `--home=<path>`
@@ -27,5 +25,3 @@ bash Xrao/install.sh <option>
 export prefix="${PREFIX:-/usr}"
 bash $prefix/opt/xrao/uninstall.sh <option>
 ```
-
-<!-- Copyright (c) 2026 Zeronetsec -->

@@ -1,5 +1,3 @@
-<!-- https://github.com/Zeronetsec/Xrao -->
-
 # Why?
 ### A Small Personal Note
 If you’ve landed on this page, you’ve probably noticed that the **Issues** and **Pull Requests (PRs)** features on this repository are intentionally disabled. </br>
@@ -33,5 +31,3 @@ If you find this tool useful but feel it needs fixes or improvements:
 Thank you so much "if" you understand, respect my busy life, and honor my personal boundaries.
 
 <code>“Respect.”</code>
-
-<!-- Copyright (c) 2026 Zeronetsec -->

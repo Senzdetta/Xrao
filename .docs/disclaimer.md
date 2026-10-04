@@ -1,5 +1,3 @@
-<!-- https://github.com/Zeronetsec/Xrao -->
-
 # DISCLAIMER
 ## **Version 0.1 (Experimental Status)**
 This tool is currently in its early **v0.1** stage and is considered **unstable**. </br>
@@ -28,5 +26,3 @@ The provided `config/config.xr` is merely a baseline template built on generic a
 It is **not optimized** for your specific device and may not yield ideal performance or results.
 - **Crucial:** You are strongly advised to create and use your own custom `.xr` configuration file, tailored specifically to your device's capabilities and your own automation/tweaking needs. </br>
   Do not rely blindly on the default values.
-
-<!-- Copyright (c) 2026 Zeronetsec -->

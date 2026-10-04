@@ -1,5 +1,3 @@
-<!-- https://github.com/Zeronetsec/Xrao -->
-
 <div align="center">
     <img src="https://img.shields.io/badge/Xrao-Version%200.1-blue?style=square&logo=go&v=1" />
     <img src="https://img.shields.io/badge/Supported%20OS-Android-blue?style=square&logo=android&v=1" />
@@ -40,5 +38,3 @@ xrao --generate --mode apply-global-only --config ~/mycustom_config.xr --out ~/m
 xrao --status
 ```
 And more commands.
-
-<!-- Copyright (c) 2026 Zeronetsec -->
