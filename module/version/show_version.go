@@ -17,7 +17,7 @@ const (
 func ShowVersion() {
     fmt.Printf(
         "%s- %s%s %s-%s\n",
-        color.N, color.GG, name, color.N,
+        color.DG, color.GG, name, color.DG, color.N,
     )
 
     fmt.Printf(
