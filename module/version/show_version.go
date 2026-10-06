@@ -10,13 +10,13 @@ import (
 const (
     name = "Xrao"
     version = "v0.1.06102026"
-    creator = "Senzdetta"
+    developer = "Senzdetta"
     homepage = "https://github.com/Senzdetta/Xrao"
 )
 
 func ShowVersion() {
     fmt.Printf(
-        "%sName: %s%s%s\n",
+        "%s- %s%s %s-%s\n",
         color.N, color.GG, name, color.N,
     )
 
@@ -26,8 +26,8 @@ func ShowVersion() {
     )
 
     fmt.Printf(
-        "%sCreator: %s%s%s\n",
-        color.N, color.GG, creator, color.N,
+        "%sDeveloper: %s%s%s\n",
+        color.N, color.GG, developer, color.N,
     )
 
     fmt.Printf(
