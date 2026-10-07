@@ -1,4 +1,5 @@
 # Why?
+
 ### A Small Personal Note
 If you’ve landed on this page, you’ve probably noticed that the **Issues** and **Pull Requests (PRs)** features on this repository are intentionally disabled. </br>
 This document isn’t meant to be unfriendly; it is simply here to provide full transparency regarding my personal boundaries, time, and energy.

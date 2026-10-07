@@ -22,14 +22,14 @@ def generate_uiflag_params():
     for line in lines:
         stripped = line.strip()
         if re.match(
-            r"^#\s+Installation",
+            r"^##\s+Installation",
             stripped,
             re.IGNORECASE,
         ):
             current_section = "installation"
             continue
         elif re.match(
-            r"^#\s+Uninstallation",
+            r"^##\s+Uninstallation",
             stripped,
             re.IGNORECASE,
         ):
