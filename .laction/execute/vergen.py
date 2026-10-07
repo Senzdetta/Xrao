@@ -7,7 +7,7 @@ from pathlib import Path
 script_dir = Path(__file__).resolve().parent
 project_root = script_dir.parent.parent
 
-today = datetime.now().strftime("%d%m%Y")
+today = datetime.now().strftime("%Y%m%d")
 NEW_VERSION_STR = f"v0.1.{today}"
 
 TARGET_FILE = project_root / "module" / "version" / "show_version.go"
