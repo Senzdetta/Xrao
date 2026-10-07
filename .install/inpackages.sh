@@ -1,5 +1,5 @@
 function install::inpackages() {
-    command mapfile -t packages < <(
+    builtin mapfile -t packages < <(
         command cat "${root}/.install/packages.txt"
     )
 
