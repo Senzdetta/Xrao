@@ -1,4 +1,4 @@
-golang
+golang::golang-go
 adb::android-tools
 bat
 zip
