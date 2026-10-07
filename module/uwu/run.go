@@ -7,7 +7,7 @@ import (
     "time"
 )
 
-func Nyaa() {
+func Run() {
     faces := []string{
         "(｡◕‿◕｡)",
         "(≧◡≦)",
@@ -19,9 +19,11 @@ func Nyaa() {
     }
 
     fixface := "(・ω・)"
+
     delay := 200 * time.Millisecond
     end := time.After(5 * time.Second)
-    kaomoji := 0
+
+    idx := 0
 
     fmt.Print("\x1b[?25l")
     for {
@@ -35,10 +37,10 @@ func Nyaa() {
             default:
                 fmt.Printf(
                     "\r%s\x1b[K",
-                    faces[kaomoji%len(faces)],
+                    faces[idx%len(faces)],
                 )
             time.Sleep(delay)
-            kaomoji++
+            idx++
         }
     }
 }
